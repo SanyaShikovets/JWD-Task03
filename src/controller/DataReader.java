@@ -16,7 +16,7 @@ public class DataReader {
         FileReader fileReader = null;
         try {
             fileReader = new FileReader(file);
-        } catch (FileNotFoundException e) {
+        } catch (FileNotFoundException e) {// ошибка кодирования, продумаю, что случится при негативном сценарии (когда исключение случится)
             e.printStackTrace();
         }
 
