@@ -47,7 +47,7 @@ public class DataFilter {
         return element;
     }
 
-    public Element filter(List<String> data){
+    public Element filter(List<String> data){// сложноватый по управлению метод
 
         Stack<Element> stack = new Stack<>();
         Element rootElement = new Element();
